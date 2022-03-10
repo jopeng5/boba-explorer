@@ -1,4 +1,39 @@
-.top {
+.one {
+  display: flex;
+  flex-direction: column;
+  background-color: #005c99;
+  color: #F9FAF8;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.hero {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.hero-text > h1 {
+  text-size: 48px;
+  font-weight: bold;
+}
+
+.hero-img > img {
+  width: 30vw;
+  height: auto;
 }
