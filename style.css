@@ -1,3 +1,6 @@
+* {
+  font-family: 'Cabin', 'Roboto', sans-serif;
+}
 .one {
   display: flex;
   flex-direction: column;
@@ -8,8 +11,13 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  align-items: center;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+.header > h1 {
+  font-size: 24px;
 }
 
 ul {
@@ -17,23 +25,66 @@ ul {
   margin: 0;
   display: flex;
   list-style: none;
+  gap: 20px;
+  font-size: 18px;
 }
 
 .hero {
   display: flex;
-  flex: 1;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
 }
 
-.hero-text > h1 {
-  text-size: 48px;
+.hero-left > h1 {
+  font-size: 48px;
   font-weight: bold;
 }
 
-.hero-img > img {
-  width: 30vw;
-  height: auto;
+.hero-left > p {
+  font-size: 18px;
+}
+
+.hero-left > button {
+  border: solid 2px #F9FAF8;
+  outline: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  padding: 10px 20px;
+  border-radius: 8px
+}
+
+.hero-right > img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  flex: auto;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.container > h1 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.icon > img {
+  width: 8vw;
+  height: 8vw;
+  object-fit: cover;
 }
