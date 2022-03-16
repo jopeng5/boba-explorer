@@ -1,6 +1,7 @@
 * {
   font-family: 'Cabin', 'Roboto', sans-serif;
 }
+
 .one {
   display: flex;
   flex-direction: column;
@@ -14,9 +15,6 @@
   align-items: center;
   padding: 0;
   margin: 0 12vw;
-}
-
-.header > h1 {
   font-size: 24px;
 }
 
@@ -33,29 +31,32 @@ ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 0 12vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 .hero-left,
 .hero-right {
   flex: 1 1 0;
-  margin: 0;
-  padding: 0;
 }
 
 .hero-left > h1 {
   font-size: 48px;
   font-weight: bold;
+  margin-bottom: -12px;
 }
 
 .hero-left > p {
-  font-size: 18px;
+  font-size: 24px;
+  margin-bottom: 24px;
 }
 
 .hero-left > button {
   border: solid 3px #F9FAF8;
   outline: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   color: #F9FAF8;
   background-color: #3882F6;
@@ -73,9 +74,14 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #1F2937;
+  background-color: #002966;
   padding-bottom: 2vw;
   margin: 0;
+}
+
+.container > h1 {
+  font-size: 48px;
+  font-weight: bolder;
 }
 
 .icons {
@@ -88,26 +94,66 @@ ul {
   gap: 48px;
 }
 
-.container > h1 {
-  font-size: 36px;
-  font-weight: bolder;
-}
-
 .icon > img {
-  width: 8vw;
-  height: 8vw;
+  width: 9vw;
+  height: 9vw;
   object-fit: cover;
   border-radius: 10px;
 }
+D
+.icon > text {
+  font-size: 28px;
+}
 
 .testimonial {
+  background-color: #4D94FF;
+  font-size: 36px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .quote-source {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.footer {
+  background-color: white; 
+  color: #1F2937;
+  padding: 80px;
+}
+
+.cta {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 24px 160px;
+  padding: 64px 26px;
+}
+
+.cta-text > p:first-child {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.cta-text > p {
+  padding: 0;
+  margin: 0;
+}
+
+.cta-button {
+  background-color: #3882F6;
+  color: #F9FAF8; 
+  border: solid 3px #F9FAF8;
+  border-radius: 6px;
+  padding: 6px 36px;
+  text-align: center;
 }
