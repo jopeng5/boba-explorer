@@ -2,11 +2,13 @@
   font-family: 'Cabin', 'Roboto', sans-serif;
 }
 
-.one {
+body {
   display: flex;
   flex-direction: column;
   background-color: #005c99;
   color: #F9FAF8;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
